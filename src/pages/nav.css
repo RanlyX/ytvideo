@@ -1,0 +1,84 @@
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(104, 104, 104);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul.horizontal li {
+    float: left;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul.horizontal li a.active {
+    background-color: #9abdeb;
+}
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+span {
+    max-width: auto;
+    text-align: center;
+    align-content: center;
+}
+
+
+  
+.dropdown {
+position: relative;
+position: absolute;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+/* position: relative; */
+background-color: rgb(70, 70, 70);
+/* min-width: auto; */
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #3e8e41;
+}

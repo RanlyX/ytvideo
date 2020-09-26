@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+}
+
+.Container {
+    width:70%;
+    height:auto;
+    position:static;
+    float:none;
+
+    margin: auto;
+    padding:1px 1px 1px 1px;
+    /* border:1px solid #C0C0C0; */
+    background:#FFFFFF url() no-repeat fixed center;
+}
+

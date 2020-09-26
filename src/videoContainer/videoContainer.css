@@ -1,0 +1,25 @@
+.video {
+    max-width: 320px;
+    padding-left: 5px;
+    /* pendding-left: 5px; */
+    padding-right: 5px;
+    /* margin: 0px auto; */
+    
+}
+
+.v-title {
+    font-size: 14px;
+    max-height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.panel-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

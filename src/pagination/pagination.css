@@ -1,0 +1,54 @@
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.page {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.page li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.page li:first-of-type, .page li:last-of-type {
+    width: auto;
+    /* padding: 0 8px; */
+}
+.page li:first-of-type {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.page li:last-of-type {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.page li::selection {
+    background-color: transparent;
+}
+.active {
+    color: #fff !important;
+    background: #ff3300;
+    border-color: #ff3300 !important;
+}
+
+.nomore{
+    color:#b5b5b5 !important;
+}
+
