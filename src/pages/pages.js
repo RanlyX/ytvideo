@@ -45,7 +45,6 @@ const M3U8 = () => {
           <h2 className="py-3">Player</h2>
           
           <ReactPlayer className='react-player'
-            //这里是由上级页面传过来的视频地址
           //   url="https://bitdasha.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
             url="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
             playing
@@ -59,14 +58,6 @@ const M3U8 = () => {
             }}
           />
           
-     
-      
-          {/* <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}">  */}
-          {/* <source src="https://bitdasha.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8" type="video/m3u8"></source> */}
-          {/* <source src="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8" type="video/m3u8"></source> */}
-          {/* </video>  */}
-          {/* <video id="current-video" class="video-js vjs-default-skin vjs-big-play-centered" controls></video> */}
-              
       </div>;
       
   };
